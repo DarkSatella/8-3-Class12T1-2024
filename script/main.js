@@ -21,7 +21,7 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   slides[slideIndex-1].style.opacity = 1;  
 
-  setTimeout(showSlides, 1000); // Change image every 1 seconds
+  setTimeout(showSlides, 600); // Change image every 0.6 seconds
 }
 
 
